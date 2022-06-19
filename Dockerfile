@@ -22,7 +22,7 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 WORKDIR /app
 
 # copy file
-ADD target/scala-2.11/connect-assembly-1.0.jar connect.jar
+ADD target/scala-2.11/koko-assembly-1.0.jar koko.jar
 
 # command
-ENTRYPOINT [ "java", "-jar", "/app/connect.jar" ]
+ENTRYPOINT [ "java", "-jar", "/app/koko.jar" ]
