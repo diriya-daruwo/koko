@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "koko"
+  description: "koko service"
+  annotations:
+    github.com/project-slug: diriya-daruwo/koko
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "kingfisher"
