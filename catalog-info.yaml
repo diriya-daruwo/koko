@@ -6,6 +6,8 @@ metadata:
   annotations:
     github.com/project-slug: diriya-daruwo/koko
     backstage.io/techdocs-ref: dir:.
+    snyk.io/org-name: erangaeb
+    snyk.io/project-ids: 3db211fa-d036-4375-a7b8-529d8f20158f
 spec:
   type: service
   lifecycle: experimental
